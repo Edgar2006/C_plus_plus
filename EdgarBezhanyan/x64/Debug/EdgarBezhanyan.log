@@ -1,0 +1,3 @@
+﻿  Array2d.cpp
+C:\Users\e\source\repos\EdgarBezhanyan\EdgarBezhanyan\Array2d.cpp(40,21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  EdgarBezhanyan.vcxproj -> C:\Users\e\source\repos\EdgarBezhanyan\x64\Debug\EdgarBezhanyan.exe
