@@ -48,12 +48,10 @@ int Array2d::findCollisonElements(char** arr, int row, char* findString)
 	int count = 0;
 	for (size_t i = 0; i < row; i++)
 	{
-		std::cout << "FFFFFFFFFFFF" << std::endl;
 		if (CheckStringCollison(arr[i], findString) == 1) {
 			count++;
 		}
 	}
-	std::cout << "FFFFFFFFFFFF_" << count << std::endl;
 	return count;
 }
 
@@ -63,7 +61,6 @@ bool Array2d::CheckStringCollison(char* col, char* findString)
 	int j = 0;
 	for (size_t i = 0;col[i] != '\0'; i++)
 	{
-		std::cout << "!ssadasda" << std::endl;
 
 		if (findString[j] == '\0') {
 			if (b) {
@@ -151,8 +148,6 @@ void Array2d::printArr(int* arr, int row)
 	std::cout << "____Result____" << std::endl;
 	for (size_t i = 0; i < row; i++)
 	{
-		std::cout << "```````!ssadasda" << std::endl;
-
 		std::cout << arr[i]<< " ";
 	}
 	std::cout << std::endl;

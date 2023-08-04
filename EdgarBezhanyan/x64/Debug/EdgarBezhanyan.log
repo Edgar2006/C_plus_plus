@@ -1,3 +1,5 @@
-﻿  Array2d.cpp
-C:\Users\e\source\repos\EdgarBezhanyan\EdgarBezhanyan\Array2d.cpp(40,21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-  EdgarBezhanyan.vcxproj -> C:\Users\e\source\repos\EdgarBezhanyan\x64\Debug\EdgarBezhanyan.exe
+﻿  EdgarBezhanyan.cpp
+  MyString.cpp
+D:\qwerty\c++\EdgarBezhanyan\MyString.cpp(37,23): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  EdgarBezhanyan.vcxproj -> D:\qwerty\c++\x64\Debug\EdgarBezhanyan.exe

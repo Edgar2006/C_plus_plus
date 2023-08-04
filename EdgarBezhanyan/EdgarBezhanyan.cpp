@@ -1,16 +1,11 @@
-﻿#include <iostream>
-#include "Array2d.h"
-
-
-
+﻿#include "Array2d.h"
+#include "MyString.h"
 
 int main()
 {
-	Array2d a{ };
-	a.Call();
-
-
-
-
+	MyString str;
+	str.input();
+	str.print();
+	
 	return 0;
 }
